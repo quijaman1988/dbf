@@ -1,0 +1,9 @@
+li { display:inline;}
+
+ul li {
+    display:inline;
+    background-color:yellow;
+    padding:5px;
+    margin-right:5px;
+    color:red;
+}
