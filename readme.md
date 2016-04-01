@@ -16,8 +16,8 @@ Create random user data for your applications. Like Lorem Ipsum, but for people.
 This Application was built using the Laravel Framework
 
 ## Packages
-[Faker](https://github.com/fzaninotto/Faker)
-[Laravel-Lipsum](https://github.com/magyarjeti/laravel-lipsum)
+* Faker: https://github.com/fzaninotto/Faker
+* Laravel-Lipsum: https://github.com/magyarjeti/laravel-lipsum
 
 ##Outside Code
 * Bootstrap: http://getbootstrap.com/
