@@ -6,11 +6,18 @@
 
 
 @section('content')
+<br/>
+<ul>
+    <li><a href='/lorem'>Back</a></li>
+</ul>
+<br/><br/>
 
 
 
 
 
-<?php echo $paragraphs;  ?>
+<?php
+//echo 'hello';
+echo $paragraphs;  ?>
 
 @stop

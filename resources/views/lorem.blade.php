@@ -8,11 +8,7 @@
 
 <h3>Create Random Lorem Ipsum</h3>
 
-<br/>
-<ul>
-    <li><a href='/users'>Back</a></li>
-</ul>
-<br/><br/>
+
 
 
     @if (count($errors) > 0)
@@ -26,7 +22,15 @@
     <input type='text'
             id='paragraph'
             name='paragraph'
-            value='{{ old("paragraph") }}' size="5"   >&nbsp;Max 99<br/>
+            maxlength="2"
+            size="5"
+            @if (isset($error))
+              value='' size="5"  >&nbsp;Max 99&nbsp;&nbsp;<span style="color:red">
+                &nbsp;Please enter a number!</span>
+            @else
+              &nbsp;Max 99&nbsp;&nbsp;<br/>
+            @endif
+            <br/>
 
     <input type="checkbox" name="header" value="header"/>Include Headers<br/><br/>
 

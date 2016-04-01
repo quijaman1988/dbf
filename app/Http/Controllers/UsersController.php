@@ -17,9 +17,17 @@ class UsersController extends Controller {
 
   public function postShow (Request $request) {
 
-  $this->validate ($request, [
+  $error=false;
+
+  if (!is_numeric($request->input('users'))){
+    $error=true;
+    return view ('users')->with('error',$error);
+
+  }
+
+  /*$this->validate ($request, [
     'users' => 'required|integer',
-  ]);
+  ]);*/
 
   $num = $request->input('users');
 

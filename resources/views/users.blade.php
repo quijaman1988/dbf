@@ -22,7 +22,12 @@
     <input type='text'
             id='users'
             name='users'
-            value='{{ old("paragraph") }}' size="5"  >&nbsp;Max 99<br/>
+            @if (isset($error))
+              value='' size="5"  >&nbsp;Max 99&nbsp;&nbsp;<span style="color:red">
+                &nbsp;Please enter a number!</span><br/>
+            @else
+              value='' size="5"  >&nbsp;Max 99&nbsp;&nbsp;<br/>
+            @endif
 
     <input type="checkbox" name="desc" value="desc"/>Include User Description<br/><br/>
 
