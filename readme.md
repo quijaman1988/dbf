@@ -4,7 +4,7 @@
 [p3.manuelquijano.com](http://p3.manuelquijano.com)
 
 ## Demo Link
-[screencast.com/t/GpBWKlW5j](http://screencast.com/t/GpBWKlW5j)
+[http://screencast.com/t/g87HNzAX4gol](http://screencast.com/t/g87HNzAX4gol)
 
 ## Lorem Ipsum Creator
 In publishing and graphic design, lorem ipsum is a placeholder text commonly used to demonstrate the graphic elements of a document or visual presentation. By replacing the distraction of meaningful content with filler text of scrambled Latin it allows viewers to focus on graphical elements such as font, typography, and layout.

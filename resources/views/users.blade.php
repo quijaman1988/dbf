@@ -22,6 +22,7 @@
     <input type='text'
             id='users'
             name='users'
+            maxlength="2"
             @if (isset($error))
               value='' size="5"  >&nbsp;Max 99&nbsp;&nbsp;<span style="color:red">
                 &nbsp;Please enter a number!</span><br/>
