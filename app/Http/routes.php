@@ -20,6 +20,10 @@ Route::get('/', function () {
 
 Route::get ('/lorem', 'LoremController@getIndex');
 Route::post ('/lorem/show', 'LoremController@postShow');
+Route::get ('/users', 'UsersController@getIndex');
+Route::post ('/users/show', 'UsersController@postShow');
+//$faker = Faker\Factory::create();
+//echo $faker->name;
 
 
 });

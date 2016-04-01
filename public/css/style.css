@@ -1,9 +1,16 @@
-li { display:inline;}
+li {
+      display:inline
+      margin-left:0px;
+
+    ;}
 
 ul li {
+
     display:inline;
-    background-color:yellow;
+    background-color:#EEEEEE;
     padding:5px;
     margin-right:5px;
     color:red;
+    font-size:150%;
+    margin-left:-30px;
 }

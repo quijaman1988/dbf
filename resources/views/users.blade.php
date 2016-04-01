@@ -6,7 +6,7 @@
 
 @section('content')
 
-<h3>Create Random Lorem Ipsum</h3>
+<h3>Create Random Users</h3>
 
 
 
@@ -14,14 +14,14 @@
     @if (count($errors) > 0)
        <li>WWWWW</li>
   @endif
-<form method='POST' action='/lorem/show'>
+<form method='POST' action='/users/show'>
 
 
-    <label>Enter Number of Paragraphs</label>
+    <label>Enter Number of Users you wish to create</label>
     <input type='hidden' name='_token' value='{{ csrf_token() }}'>
     <input type='text'
-            id='paragraph'
-            name='paragraph'
+            id='users'
+            name='users'
             value='{{ old("paragraph") }}' size="5"  >&nbsp;Max 99<br/>
 
     <input type="checkbox" name="header" value="header"/>Include Headers<br/><br/>

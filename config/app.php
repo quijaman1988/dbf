@@ -148,6 +148,8 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
         'Magyarjeti\LaravelLipsum\LipsumServiceProvider',
+        
+
 
         /*
          * Application Service Providers...
@@ -203,6 +205,7 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
         'Lipsum' => 'Magyarjeti\LaravelLipsum\LipsumFacade',
+
 
     ],
 
