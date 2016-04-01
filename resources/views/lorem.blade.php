@@ -36,6 +36,6 @@
 
 
 
-    <button type="submit" class="btn btn-primary">Create</button>
+    <button type="submit" class="btn btn-primary"><i class="fa fa-sign-in fa-lg"></i>&nbsp;Create </button>
 
 @stop

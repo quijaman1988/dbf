@@ -8,7 +8,7 @@
 @section('content')
 <br/>
 <ul>
-    <li><a href='/lorem'>Back</a></li>
+    <li><a href='/lorem'><i class="fa fa-backward">&nbsp;Back</i></a></li>
 </ul>
 <br/><br/>
 

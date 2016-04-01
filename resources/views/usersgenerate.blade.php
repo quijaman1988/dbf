@@ -9,7 +9,7 @@
 
 <br/>
 <ul>
-    <li><a href='/users'>Back</a></li>
+    <li><a href='/users'><i class="fa fa-backward">&nbsp;Back</i></a></li>
 </ul>
 <br/><br/>
 
@@ -25,7 +25,7 @@
     alt='User'> <br/>
     <h3>{{ $faker->name }}<br/></h3>
     <h4>{{ $faker->address }}<br/></h4>
-    
+
     @if ($desc)
     {{ $faker->text }}<br/>
     @endif
