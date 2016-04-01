@@ -8,9 +8,7 @@
 @section('content')
 
 
-<ul>
-    <li><a href='/lorem'>Return</a></li>
-</ul>
+
 
 
 <?php echo $paragraphs;  ?>

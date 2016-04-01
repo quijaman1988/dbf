@@ -24,7 +24,7 @@
             name='users'
             value='{{ old("paragraph") }}' size="5"  >&nbsp;Max 99<br/>
 
-    <input type="checkbox" name="header" value="header"/>Include Headers<br/><br/>
+    <input type="checkbox" name="desc" value="desc"/>Include User Description<br/><br/>
 
 
 

@@ -23,11 +23,16 @@ class UsersController extends Controller {
 
   $num = $request->input('users');
 
-
-
+if (isset($_POST['desc']))
+  $desc = true;
+else {
+  $desc = false;
+}
   $faker = Faker::create();
 
-  return view ('usersgenerate')->with ('faker',$faker)->with('num',$num);
+    return view ('usersgenerate')->with ('faker',$faker)->with('num',$num)
+    ->with('desc',$desc);
+
 
 
   }

@@ -30,6 +30,7 @@
       <a href='/'>
       <h1> Developers Best Friend </h1>
       </a>
+
   </header>
 
     <section>
